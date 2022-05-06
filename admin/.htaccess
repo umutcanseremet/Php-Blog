@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteRule ^dashboard$ index.php [NC,L]
+
+RewriteRule ^comments$ comments.php [NC,L]
+
+RewriteRule ^contents$ contents.php [NC,L]
+
+RewriteRule ^ekle$ ekle.php [NC,L]
+
+RewriteRule ^users$ users.php [NC,L]
+
+RewriteRule ^logout$ logout.php [NC,L]
+
+RewriteRule ^login$ login.php [NC,L]
